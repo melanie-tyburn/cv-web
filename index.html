@@ -1,0 +1,661 @@
+﻿<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Pour en savoir un peu plus sur moi...">
+	<meta name="author" content="Mélanie Tyburn">
+
+	<title>Mélanie Tyburn – Développeuse web junior PHP/JS </title>
+
+  <!-- Web Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- Font Awesome CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<!-- Animate css -->
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <!-- Magnific css -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+  <!-- Responsive CSS -->
+  <link href="assets/css/responsive.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <link rel="shortcut icon" href="assets/images/ico/MelTbn.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+
+</head>
+
+<body>
+	<!-- Home Section -->
+	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+               
+		<div class="intro">
+			<div class="intro-sub">Mélanie Tyburn</div>
+			<h1>Développeuse web junior PHP/JS</h1>
+            <div class="buttons-home-wrapper">
+					<!-- <a class="btn btn-info btn-lg btn-home" target = "_blank" href="realisations.html">Voir mes réalisations</a>
+                    <a class="btn btn-info btn-lg btn-home" target = "_blank" href="prestations.html" style="display:none;">Voir mes prestations</a> -->
+                    <a class="btn btn-info btn-lg btn-home" id="openModal">Me contacter !</a>
+            </div>
+		   
+		    <div class="social-icons">
+        <ul class="list-inline">
+          <li><a target = "_blank" href="https://www.facebook.com/MissyMiel"><i class="fa fa-facebook"></i></a></li>
+		      <li><a target = "_blank" href="https://www.linkedin.com/in/mélanie-tyburn"><i class="fa fa-linkedin"></i></a></li>
+          <li><a target = "_blank" href="https://www.youtube.com/channel/UClouO6uwinv5mP8_Ozwf90Q"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+      </div> <!-- /.social-icons -->
+		</div>
+		<div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
+	</section><!-- End Home Section -->
+
+
+<!-- Navigation -->
+	<header class="header">
+		<nav class="navbar navbar-custom" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="assets/images/MelTbn.png" alt=""></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Accueil</a></li>
+						<li><a href="#about">À propos</a></li>
+						<li><a href="#resume">Parcours</a></li>
+						<li><a href="#skills">Compétences</a></li>
+						<li><a href="#works">Réalisations</a></li>
+					</ul>
+				</div>
+			</div><!-- .container -->
+		</nav>
+	</header><!-- End Navigation -->
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">À propos de moi</h2>
+
+        <div class="row">
+
+          <div class="col-md-4 col-md-push-8">
+            <div class="biography">
+              <div class="myphoto">
+                <img src="assets/images/myphoto.png" alt="">
+              </div>
+              <ul>
+                <li><strong>Nom:</strong> Mélanie Tyburn</li>
+                <li><strong>Date de naissance:</strong> 17 / 02 / 1996</li>
+				<li><strong>Ville:</strong> Toulouse</li>
+                <li><strong>Centres d'intérêt:</strong> Lecture, Dessin & Infographie, Cinéma, Voyages, Jeux vidéos...</li>
+              </ul>
+            </div>
+          </div> <!-- col-md-4 -->
+
+          <div class="col-md-8 col-md-pull-4">
+		    <h3>Biographie</h3><br/>
+            <div class="short-info wow fadeInUp">
+              <p>
+			  <b>Depuis toute petite,</b> je suis très curieuse et attirée par tout ce qui demande de l'analyse et de la réflexion, comme la lecture, les documentaires ou les jeux vidéos.
+			  <br/>
+			  <b>Par la suite,</b> le domaine de l'informatique m'ayant énormément intéressée, j'ai entamé un cursus scientifique dès la Terminale, avec la spécialité "Informatique et Sciences du Numérique".
+			  <br/>
+			  <b>À travers mon parcours universitaire et mes années d'alternance,</b> j'ai pu découvrir, comprendre et maîtriser les rouages techniques du web et ses principes fondamentaux (programmation orientée objet, architecture MVC…).
+			  <br/>  
+			  <b>Cependant,</b> fidèle à ma nature polyvalente et touche à tout, je me suis dirigée (à la suite de ma licence Développement Logiciel) vers un master Création Numérique afin de découvrir d'autres domaines en lien avec l'informatique, comme la robotique, l'IA ou encore le webdesign.
+			  <br/>
+			  <b>Lors de l'obtention de mon diplôme en 2021,</b> j'ai rapidement eu une opportunité d'emploi : d'abord en graphisme, puis en tant qu'assistante webmaster, avec la promesse de participer activement à la refonte complète du site web de l'entreprise (migration du CMS Spip vers Wordpress).
+			  <br/>
+			  <b>Entre temps,</b> l'entreprise ayant fait face à de grosses difficultés financières, un plan de licenciements économiques a été mis en place. Cet évènement m'a permis de savoir ce qu'au fond, j'ai toujours voulu : continuer à développer des sites web et à me former aux technologies inhérentes à ce domaine d'activité.
+			  <br/>
+			  <b><i>Quelle est ma force ?</i></b>
+			  <br/> 
+			  Mon aspect pluridisciplinaire et polyvalent : il s'agit d'un très bon atout pour faciliter la collaboration entre les différents corps de métier en lien avec un projet tech, en plus de fluidifier les échanges et de clarifier certaines situations.
+			  </p>
+			<ul class="list-check">
+                <li>Polyvalente</li>
+                <li>Curieuse</li>
+                <li>Réactive</li>
+                <li>Rigoureuse</li>
+                <li>Organisée</li>
+                <li>Autonome</li>
+			  </ul>
+			  
+			</div>   
+                      
+              <div class="download-button">
+              <a class="btn btn-primary btn-lg" href="cv.pdf" target = "_blank"><i class="fa fa-download"></i>Télécharger mon CV</a>
+            </div>            
+            </div>  
+          </div>
+        </div> <!-- /.row -->
+      <!-- /.container -->
+    </section><!-- End About Section -->
+	
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Mon Parcours</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Mes Formations</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+						       
+						              <li class="timeline-inverted">
+                                <div class="posted-date">
+                                  <span class="month">2019 - 2021</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Master Création Numérique</h3>
+                                            <span>Université Toulouse 2 Jean Jaurès, 31000 Toulouse</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>
+                                              - Développement web & logiciel (HTML, CSS, PHP, JS, Blender...)<br/>
+                                              - Gestion de projets<br/>
+                                              - Graphisme & webdesign
+                                              - 3D, Robotique, Intelligence Artificielle
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                           <li>
+                                <div class="posted-date">
+                                  <span class="month">2018 - 2019</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Master 1 Digital 360 en Alternance</h3>
+                                            <span>#SupDeWeb, 31000 Toulouse</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>
+                                              - Apprentissage des concepts UI / UX<br/>
+                                              - Développement web et gestion de CMS comme Wordpress<br/>
+                                              - Marketing, SEO, Gestion de projets…
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                    <span class="month">2017 - 2018</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Licence Informatique en alternance</h3>
+                                            <span>IPST-CNAM de Toulouse, 31400 Toulouse</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>
+                                              - Développement web (HTML, CSS/SASS/LESS, PHP, JS/JQuery, J2EE)<br/>
+                                              - Développement logiciel (Ada, C, C++, Java)<br/>
+                                              - Gestion de projets, systèmes et réseaux
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">2016 - 2017</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>DUT Informatique en Année Spéciale</h3>
+                                            <span>IUT de Paul Sabatier, 31400 Toulouse</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>
+                                              - Développement web (HTML / CSS / PHP / Javascript / JQuery / Ajax)<br/>
+                                              - Systèmes et réseaux <br/>
+                                              - Création et administration de bases de données + SQL <br/>
+                                              - Gestion d'un projet web (conception - développement - tests)
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Mes expériences professionnelles</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+						
+						     <li class="timeline-inverted">
+                                <div class="posted-date">
+                                  <span class="month">2021 - 2023</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Graphiste multimedia - assistante webmaster</h3>
+                                            <span>CDI - Lien Social, Toulouse</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>
+                                              - Mise en page du magazine & création multisupport d'infographies <br/>
+                                              - Aide à la gestion du site web et des réseaux sociaux<br/>
+                                              - Début de refonte du site web (migration Spip > Wordpress)
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">2018 - 2019</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Développeuse web junior - Magento 2</h3>
+                                            <span>Alternance - Ludilabel, Toulouse </span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>
+                                              - Développement de nouvelles fonctionnalités avec Magento 2 <br/>
+                                              - Correction de bugs visuels et fonctionnels<br/>
+                                              - Amélioration de l'existant <br/>
+                                              - Support à l'équipe graphiste
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->																
+                            </li>
+                             <li class="timeline-inverted">
+                                <div class="posted-date">
+                                  <span class="month">2017 - 2018</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Développeuse web junior - Symfony, Drupal, Wordpress</h3>
+                                            <span>Alternance - CGI, Toulouse </span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>
+                                              - Développement de sites web avec Symfony, Wordpress et Drupal <br/>
+                                              - Correction de bugs & rédaction de documentation technique <br/>
+                                              - Support à l'équipe graphiste
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->																
+                            </li>
+							
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /.container -->
+    </section><!-- End Resume Section -->
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Mes Compétences</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skill-progress">
+              <div class="skill-title"><h3>HTML 5 / CSS 3</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+
+            <div class="skill-progress">
+              <div class="skill-title"><h3>JS / JQuery</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" ><span>85%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>PHP</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+			<div class="skill-progress">
+              <div class="skill-title"><h3>Wordpress</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>70%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+          </div><!-- /.col-md-6 -->
+
+          <div class="col-md-6">
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Frameworks JS</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" ><span>40%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Git</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>70%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+			 <div class="skill-progress">
+              <div class="skill-title"><h3>Drupal, Magento</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" ><span>60%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+			<div class="skill-progress">
+              <div class="skill-title"><h3>MySQL</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" ><span>60%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+          </div><!-- /.col-md-6 -->
+        </div><!-- /.row -->
+
+        <div class="skill-chart text-center">
+          <h3>Plus de compétences</h3>
+        </div>
+          
+        <div class="row more-skill text-center">
+          <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="90" data-color="e74c3c">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Rédaction de documentation</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="95" data-color="2ecc71">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Interface utilisateur</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="90" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Travail en équipe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="70" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Gestion de projet</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="80" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Conception et architecture MVC</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="60" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Base de données</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div><!-- /.container -->
+    </section><!-- End Skills Section -->
+
+
+    <!-- Works Section -->
+    <section id="works" class="works-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Mes réalisations</h2>
+
+        <ul class="list-inline" id="filter">
+            <li><a data-group="all">Tout</a></li>
+			      <li><a data-group="cms">Frameworks & CMS PHP</a></li>
+            <li><a data-group="natif">PHP / JS natif</a></li>
+        </ul>
+
+        <div class="row">
+          <div id="grid">
+           
+		   <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["cms"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a target = "_blank" href="https://geodis.com/fr"><i class="fa fa-search-plus"></i></a>                        
+                  </div>
+                  <img src="assets/images/realisations/geodis.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Geodis - Drupal</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+			
+		    <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["natif"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a target = "_blank" href="https://meltbn.com/projet-master-2"><i class="fa fa-search-plus"></i></a>                        
+                  </div>
+                  <img src="assets/images/realisations/mji.png" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Mon Journal Interactif - PHP natif</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+		   
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["natif"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a target = "_blank" href="https://meltbn.com/projet-blender/html/scene1.html"><i class="fa fa-search-plus"></i></a>                        
+                  </div>
+                  <img src="assets/images/realisations/mon-cv-parfait.png" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Mon CV Parfait - JS natif</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["cms"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a target = "_blank" href="https://ludilabel.fr">
+					<i class="fa fa-search-plus"></i></a>                         
+                  </div>
+                  <img src="assets/images/realisations/ludilabel-2.png" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Ludilabel - Magento 2</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["cms"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a target = "_blank" href="https://cuisine.darty.com/"><i class="fa fa-search-plus"></i></a>                         
+                  </div>
+                  <img src="assets/images/realisations/darty.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Darty Cuisines - Symfony</h3>
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+		<br/>
+      </div>
+	  
+    </section>
+	
+    <!-- Hire Section -->
+    <section id="contact" class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+      <div class="hire-section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Disponible ASAP : n'hésitez pas à me contacter !</h2>
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.hire-section-bg -->
+    </section><!-- End Hire Section -->
+    
+	<br/><br/><br/><br/>
+
+	<!-- Footer Section -->
+    <footer class="footer-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright text-center">
+              <p>&copy; Mélanie Tyburn 2023. Tous droits réservés.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer><!-- End Footer Section -->
+
+
+	<!-- Scroll-up -->
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+	
+		
+<!-- Modale de contact -->
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Comment me contacter ?</h4>
+			</div>
+			<div class="modal-body">
+				<p><b>Par mail :</b><br/>
+					<a href="mailto:tyburn.melanie@gmail.com">tyburn.melanie@gmail.com </a>
+				</p>
+				<hr>
+				<p><b>Par téléphone :</b><br/>
+				    <a href="tel:0782687342">0782687342</a>					
+				</p>
+			</div>			
+		</div>
+  </div>
+</div>
+
+
+	<!-- Javascript files -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+  <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/jquery.countTo.js"></script>
+  <script src="assets/js/jquery.inview.min.js"></script> 
+  <script src="assets/js/jquery.easypiechart.js"></script>
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script src="assets/js/jquery.fitvids.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <script src="assets/js/scripts.js"></script>
+  
+<!-- Script pour ouvrir la modale -->
+<script type="text/javascript">
+    $('#openModal').on("click", function(event) {
+        event.preventDefault();
+        $('#myModal').modal();
+    });
+</script>
+<!-- Fin Script -->
+</body>
+</html>
